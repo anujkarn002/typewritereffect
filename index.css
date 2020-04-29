@@ -1,0 +1,47 @@
+body {
+  background: white;
+  color: #323232;
+  font-weight: 300;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Helvetica neue, roboto;
+}
+
+img {
+  width: 56px;
+  height: 48px;
+}
+
+div {
+  font-weight: 100;
+  font-style: 26px;
+  display: flex;
+  font-size: 50px;
+}
+
+p {
+  margin: 2px;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+}
+
+#msg {
+  margin-left:13px;
+  color: red;
+  border-right: 1px solid black;
+  padding-right: 2px;
+  animation: blink 0.5s infinite ease;
+}
+
+@keyframes blink{
+  from, to {
+    border-right-color: transparent;
+  }
+  50% {
+    border-right-color: black;
+  }
+}
